@@ -1,0 +1,1 @@
+(function(){$(function(){var a,b,c;return a=$("#text-rotator"),c=["especial","incomparable","extraordinario","original","único"],(b=function(){var d;return c.unshift(d=c.pop()),console.log(d),a.fadeIn(500).text(d).delay(2e3).fadeOut(500,b)})()})}).call(this);
